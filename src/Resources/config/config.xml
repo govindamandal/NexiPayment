@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Minimal configuration</title>
+        <input-field>
+            <name>alias</name>
+            <copyable>true</copyable>
+            <label>Alias</label>
+            <label lang="de-DE">Alias</label>
+            <placeholder>Alias</placeholder>
+            <placeholder lang="de-DE">Alias</placeholder>
+        </input-field>
+
+        <input-field>
+            <name>secretKey</name>
+            <copyable>true</copyable>
+            <label>Secret Key</label>
+            <label lang="de-DE">Secret Key</label>
+            <placeholder>Enter Secret Key</placeholder>
+            <placeholder lang="de-DE">Enter Secret Key</placeholder>
+        </input-field>
+    </card>
+</config>
